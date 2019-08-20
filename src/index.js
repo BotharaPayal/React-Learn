@@ -23,7 +23,7 @@ class Board extends React.Component {
   constructor() {
     super();
     this.state = {
-      currentPlayer: "X",
+      currentPlayer: "X0",
       isGameOver: false,
       squares: Array(9).fill(null),
       lineCheck: [
